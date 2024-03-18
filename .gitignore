@@ -1,0 +1,7 @@
+.env
+test.py
+app.py
+*.pdf
+__pycache__
+.env.local
+node_modules
