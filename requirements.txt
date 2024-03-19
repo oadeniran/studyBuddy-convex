@@ -12,3 +12,4 @@ pycryptodome==3.15.0
 Flask
 pymongo[srv]
 azure-storage-blob
+convex

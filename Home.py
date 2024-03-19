@@ -49,6 +49,7 @@ def signUp():
 def login():
     st.title("Login")
 
+    st.info("Refreshing pages clear the cache which implies a restart of authentication process. Please try not to refresh")
     with st.form("login",clear_on_submit=True):
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")

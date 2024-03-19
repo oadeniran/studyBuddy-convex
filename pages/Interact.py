@@ -111,7 +111,7 @@ def upload():
             st.error("Please ensure your uploaded  document is selectable (i.e not scanned)")
         else:
             st.success("File uploaded successfully!")
-            st.write("Processing Uploaded PDF..........")
+            st.write("Processing Uploaded PDF..........please wait till success message")
             embeddings = OpenAIEmbeddings()
             try:
                 db = FAISS.from_documents(texts,embeddings)

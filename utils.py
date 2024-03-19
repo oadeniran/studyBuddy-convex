@@ -139,7 +139,7 @@ def upload(uid, category_name, category_dict):
             st.error("Please ensure your uploaded  document is selectable (i.e not scanned)")
         else:
             st.success("File uploaded successfully!")
-            st.write("Processing Uploaded PDF..........")
+            st.write("Processing Uploaded PDF..........please wait till success message")
             # Create the dict for uploaded pdf
             embeddings = OpenAIEmbeddings()
             try:
